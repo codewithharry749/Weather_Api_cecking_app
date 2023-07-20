@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('./bg.gif');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.box{
+    height: 400px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin:20vh auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(80, 192, 230);
+    border-radius: 10px;
+    background-image: url('/src/Components/cloud.gif');
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    width: 80%;
+    display: flex;
+    margin:5px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Mukta', sans-serif;    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.info{
+   margin: auto;
+}
+.fa-street-view{
+   margin: auto ;
+   font-size: 2.5rem;
+   
+}
+.location{
+    font-size: 1.5rem;
+    margin-left: 5px;
+    letter-spacing: 3px;
+    color: green;
+}
+.temp{
+    margin:1rem auto ;
+    width: 100%;
+    font-size: 1.7rem;
+    color: black;
+    font-weight: bold;
+    
+}
+.tempmin_max{
+    font-size: 1rem;
+    color: white;
+}
